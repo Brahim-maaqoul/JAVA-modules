@@ -1,4 +1,4 @@
-public class program {
+public class Program {
     public static void main(String[] args){
         int num = 479985;
         
@@ -16,6 +16,5 @@ public class program {
         int sum = num + res1 + res2 + res3 + res4 + res5;
         System.out.println(sum);
 
-        // System.out.println(num);
     }
     }
