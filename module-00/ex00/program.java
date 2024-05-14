@@ -1,11 +1,7 @@
 public class program {
     public static void main(String[] args){
         int num = 479985;
-        if (num < 100000 || num > 999999)
-        {
-            System.out.println("enter a number of 6 digits!");
-            return;
-        }
+        
         
         int res1 = num / 100000;
         num -= res1 * 100000;
