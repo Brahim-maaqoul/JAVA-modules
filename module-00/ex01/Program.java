@@ -9,7 +9,7 @@ public class Program {
         if(!scanner.hasNextInt()) {
             System.err.println(scanner.nextLine()+" is not a valid Integer");
             scanner.close();
-            return;
+            System.exit(-1);
          }
          
         number = scanner.nextInt();
@@ -22,7 +22,7 @@ public class Program {
         if (number < 2)
         {
             System.out.println("IllegalArgument");
-            return;
+            System.exit(-1);
         }
             
         double sq = Math.sqrt(number);
